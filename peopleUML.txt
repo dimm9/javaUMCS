@@ -1,0 +1,22 @@
+@startuml
+object MarekKowalski
+object EwaKowalska
+object JanKowalski
+object AnnaDąbrowska
+object ElżbietaKowalska
+object AndrzejKowalski
+object JoannaNowak
+object KrystynaDąbrowska
+object AlicjaWiśniewska
+object TomaszDąbrowski
+object KacperKowalski
+KacperKowalski <-- JanKowalski
+MarekKowalski <-- AnnaDąbrowska
+KacperKowalski <-- ElżbietaKowalska
+MarekKowalski <-- AndrzejKowalski
+AndrzejKowalski <-- JoannaNowak
+MarekKowalski <-- KrystynaDąbrowska
+AnnaDąbrowska <-- AlicjaWiśniewska
+AnnaDąbrowska <-- TomaszDąbrowski
+AndrzejKowalski <-- KacperKowalski
+@enduml
