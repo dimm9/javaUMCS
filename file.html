@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+<svg width="1024" height="768" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<filter id="f1" x="-100%" y="-100%" width="300%" height="300%">
+		<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+	</filter>
+	<filter id="f2" x="-100%" y="-100%" width="300%" height="300%">
+		<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+	</filter>
+	<linearGradient id="g3" >
+		<stop offset="0.000000" style="stop-color:red" />
+		<stop offset="0.300000" style="stop-color:green" />
+		<stop offset="1.000000" style="stop-color:cyan" />
+"\t</linearGradient>"
+	<filter id="f4" x="-100%" y="-100%" width="300%" height="300%">
+		<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+	</filter>
+	<filter id="f5" x="-100%" y="-100%" width="300%" height="300%">
+		<feOffset result="offOut" in="SourceAlpha" dx="5" dy="5" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+	</filter>
+</defs>
+
+<ellipse cx='600.000000' cy='600.000000' rx='100.000000' ry='100.000000'  fill="red"  filter="url(#f5)"  />
+<polygon points="428.0,454.0 422.0,664.0 212.0,658.0 218.0,448.0 "fill="url(#g2)"  filter="url(#f5)" />
+<polygon points="150.0,300.0 550.0,100.0 50.0,700.0 150.0,300.0 " fill="blue" transform="rotate(0.000000 0.000000 0.000000)scale(1.000000 1.500000)" />
+<ellipse cx='600.000000' cy='600.000000' rx='100.000000' ry='100.000000'  fill="red"  filter="url(#f5)"  />
+<polygon points="428.0,454.0 422.0,664.0 212.0,658.0 218.0,448.0 "fill="url(#g3)"  filter="url(#f5)" />
+<polygon points="150.0,300.0 550.0,100.0 50.0,700.0 150.0,300.0 " fill="blue" transform="rotate(0.000000 0.000000 0.000000)scale(1.000000 1.500000)" /></svg>
+</body>
+</html>
