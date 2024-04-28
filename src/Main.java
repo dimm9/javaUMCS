@@ -8,7 +8,6 @@ public class Main {
             float min = 1;
             x1 = (float)(Math.random() * (max - min)+ 1) + min;
             y1 = (float)(Math.random() * (max - min)+ 1) + min;
-
             SvgScene scene = SvgScene.getScene();
             Shape ellipse = new Ellipse(new Style("red", "blue", 3), new Vec2(600, 600), 100, 100);
             ellipse = new SolidFillShapeDecorator(ellipse, "red");
@@ -23,10 +22,10 @@ public class Main {
                     .build();
             square = new DropShadowDecorator(square);
             scene.add(square);
-            Polygon polyS = new Polygon(new Vec2[]{new Vec2(150, 300), new Vec2(550, 100), new Vec2(50, 700), new Vec2(150, 300)});
+            Polygon polyS = new Polygon(new Vec2[]{new Vec2(200, 10), new Vec2(550, 50), new Vec2(100, 100)});
 
             TransformationDecorator.Builder builder = new TransformationDecorator.Builder(new SolidFillShapeDecorator(polyS, "blue"));
-            TransformationDecorator s = builder.rotate(new Vec2(0, 0), 0).scale(new Vec2(1, 1.5)).build();
+            TransformationDecorator s = builder.rotate(new Vec2(0, 0), 30).scale(new Vec2(1, 1.5)).build();
             scene.add(s);
             scene.save("file.html");
 
