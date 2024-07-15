@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37a4277d-ce05-47f9-8886-c5e5584ed08d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setStreamPoetry.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Poetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/BasicBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/BookAndBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/BookDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/HardCoverDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/Horror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/LimitedEditionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/Romance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookDecorator/UpperCaseStreamParse.java" afterDir="false" />
+    <list default="true" id="37a4277d-ce05-47f9-8886-c5e5584ed08d" name="Changes" comment="aaaaaaaaaaa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +52,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yulia\OneDrive\Obrazy\javaUMCS\setStreamPoetry\src\bookDecorator" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -91,11 +76,27 @@
       <workItem from="1713890517309" duration="351000" />
       <workItem from="1714038839934" duration="942000" />
       <workItem from="1714040005942" duration="252000" />
+      <workItem from="1714063659949" duration="1701000" />
+      <workItem from="1714077435775" duration="602000" />
     </task>
+    <task id="LOCAL-00001" summary="aaaaaaaaaaa">
+      <option name="closed" value="true" />
+      <created>1714077544487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714077544487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pdf materialy" />
+    <MESSAGE value="aaaaaaaaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaaaaaaaaa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
